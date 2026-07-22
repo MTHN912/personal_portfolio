@@ -1,0 +1,8 @@
+.card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.5rem; }
+.iconWrapper {
+  width: 48px; height: 48px; border-radius: 0.75rem;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15));
+  color: var(--color-primary-400); margin-bottom: 0.25rem;
+}
+.value { font-family: var(--font-mono); }

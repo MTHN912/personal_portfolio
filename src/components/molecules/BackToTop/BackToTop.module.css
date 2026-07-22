@@ -1,0 +1,8 @@
+.button {
+  position: fixed; bottom: 2rem; right: 2rem; z-index: 50;
+  width: 48px; height: 48px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary-500), var(--color-accent-500));
+  color: white; border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 20px rgba(99,102,241,0.4);
+}

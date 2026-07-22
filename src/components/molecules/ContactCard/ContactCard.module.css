@@ -1,0 +1,10 @@
+.card { display: flex; align-items: center; gap: 1rem; }
+.iconWrapper {
+  width: 48px; height: 48px; border-radius: 0.75rem; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15));
+  color: var(--color-primary-400);
+}
+.info { display: flex; flex-direction: column; }
+.link { text-decoration: none; display: block; }
+.link:hover .card { border-color: var(--color-primary-400); }

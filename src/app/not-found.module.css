@@ -1,0 +1,16 @@
+.container {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden; padding: 2rem;
+}
+.bgOrb {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 500px; height: 500px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(99,102,241,0.12) 0%, transparent 70%);
+  filter: blur(60px); pointer-events: none;
+}
+.content {
+  position: relative; text-align: center; display: flex; flex-direction: column;
+  align-items: center; gap: 1rem; max-width: 500px;
+}
+.code { font-size: clamp(5rem, 15vw, 10rem); line-height: 1; }
+.description { margin-bottom: 1rem; }

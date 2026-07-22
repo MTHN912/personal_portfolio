@@ -1,0 +1,7 @@
+.toggle {
+  display: flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--color-border);
+  background: var(--color-glass-bg); backdrop-filter: blur(8px);
+  color: var(--color-text-secondary); cursor: pointer; transition: all 0.2s ease;
+}
+.toggle:hover { color: var(--color-primary-400); border-color: var(--color-primary-400); }

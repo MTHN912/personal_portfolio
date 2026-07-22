@@ -1,0 +1,9 @@
+.section { padding: 6rem 0; position: relative; }
+.container { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+.timeline { position: relative; display: flex; flex-direction: column; gap: 2rem; }
+.line {
+  position: absolute; left: 50%; top: 0; bottom: 0; width: 2px;
+  background: linear-gradient(180deg, var(--color-primary-500), var(--color-accent-500), transparent);
+  transform: translateX(-50%);
+}
+@media (max-width: 768px) { .line { left: 0; transform: none; } }

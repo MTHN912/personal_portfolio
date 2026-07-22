@@ -1,0 +1,22 @@
+.avatar {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image { object-fit: cover; border-radius: 50%; }
+.ring {
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  background: linear-gradient(135deg, var(--color-primary-400), var(--color-accent-400)) border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.sm { width: 40px; height: 40px; }
+.md { width: 64px; height: 64px; }
+.lg { width: 96px; height: 96px; }
+.xl { width: 160px; height: 160px; }

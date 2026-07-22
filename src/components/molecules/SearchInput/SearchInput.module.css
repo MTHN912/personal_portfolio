@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.5rem 1rem; border-radius: 9999px;
+  border: 1.5px solid var(--color-border); background: var(--color-surface);
+  transition: border-color 0.2s ease; max-width: 300px; width: 100%;
+}
+.wrapper:focus-within { border-color: var(--color-primary-400); }
+.icon { color: var(--color-text-muted); display: flex; flex-shrink: 0; }
+.input {
+  flex: 1; border: none; outline: none; background: transparent;
+  color: var(--color-text-primary); font-size: 0.875rem; font-family: inherit;
+}
+.input::placeholder { color: var(--color-text-muted); }
+.clear {
+  display: flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px; border-radius: 50%; border: none;
+  background: var(--color-surface-elevated); color: var(--color-text-muted);
+  cursor: pointer; flex-shrink: 0;
+}

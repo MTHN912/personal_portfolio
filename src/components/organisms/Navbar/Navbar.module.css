@@ -1,0 +1,64 @@
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 90;
+  padding: 1rem 0; transition: all 0.3s ease;
+}
+.scrolled {
+  background: var(--color-glass-bg); backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-glass-border);
+  padding: 0.75rem 0;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+}
+.container {
+  max-width: 1280px; margin: 0 auto; padding: 0 1.5rem;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo { text-decoration: none; font-size: 1.25rem; font-weight: 700; font-family: var(--font-mono); }
+.logoGradient {
+  background: linear-gradient(135deg, var(--color-primary-400), var(--color-accent-400));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+
+.desktopNav { display: flex; align-items: center; gap: 0.25rem; }
+.navLink {
+  position: relative; padding: 0.5rem 0.875rem; font-size: 0.875rem; font-weight: 500;
+  color: var(--color-text-secondary); text-decoration: none; border-radius: 0.5rem;
+  transition: color 0.2s ease;
+}
+.navLink:hover { color: var(--color-text-primary); }
+.navLink.active { color: var(--color-primary-400); }
+.activeIndicator {
+  position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 20px; height: 2px; border-radius: 9999px;
+  background: linear-gradient(90deg, var(--color-primary-500), var(--color-accent-500));
+}
+
+.actions { display: flex; align-items: center; gap: 0.5rem; }
+.menuButton {
+  display: none; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--color-border);
+  background: var(--color-glass-bg); color: var(--color-text-secondary); cursor: pointer;
+}
+
+/* Mobile */
+.mobileOverlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 95; }
+.mobileMenu {
+  display: none; position: fixed; top: 0; right: 0; bottom: 0; width: 280px;
+  background: var(--color-surface); border-left: 1px solid var(--color-border);
+  z-index: 96; padding: 5rem 1.5rem 2rem;
+}
+.mobileLinks { display: flex; flex-direction: column; gap: 0.25rem; }
+.mobileLink {
+  padding: 0.875rem 1rem; font-size: 1rem; font-weight: 500;
+  color: var(--color-text-secondary); text-decoration: none;
+  border-radius: 0.75rem; transition: all 0.2s ease;
+}
+.mobileLink:hover, .mobileLink.active {
+  background: var(--color-surface-elevated); color: var(--color-primary-400);
+}
+
+@media (max-width: 768px) {
+  .desktopNav { display: none; }
+  .menuButton { display: flex; }
+  .mobileOverlay, .mobileMenu { display: block; }
+}

@@ -1,0 +1,6 @@
+.link { transition: color 0.2s ease; color: var(--color-text-secondary); text-decoration: none; }
+.link:hover { color: var(--color-primary-400); }
+.default { }
+.nav { font-weight: 500; font-size: 0.9375rem; }
+.underline { text-decoration: underline; text-underline-offset: 3px; }
+.icon { display: inline-flex; align-items: center; justify-content: center; }

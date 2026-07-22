@@ -1,0 +1,10 @@
+.container { position: relative; overflow: hidden; }
+.skeleton {
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, var(--color-surface-elevated) 25%, var(--color-surface-hover) 50%, var(--color-surface-elevated) 75%);
+  background-size: 200% 100%; animation: shimmer 1.5s ease-in-out infinite;
+}
+.image { opacity: 0; transition: opacity 0.5s ease; object-fit: cover; }
+.loaded { opacity: 1; }
+.rounded { border-radius: 1rem; }
+@keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
