@@ -1,4 +1,4 @@
-// Chip atom - filterable chip/toggle
+
 'use client';
 import { cn } from '@/shared/utils';
 import styles from './Chip.module.css';

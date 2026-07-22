@@ -1,4 +1,4 @@
-// Skill types
+
 
 import { BaseEntity } from './common.types';
 

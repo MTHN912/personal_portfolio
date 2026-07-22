@@ -1,4 +1,4 @@
-// Education Page
+
 import { MainLayout } from '@/components/templates/MainLayout';
 import { EducationSection } from '@/components/organisms';
 

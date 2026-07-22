@@ -1,4 +1,4 @@
-// Divider atom
+
 import { cn } from '@/shared/utils';
 import styles from './Divider.module.css';
 

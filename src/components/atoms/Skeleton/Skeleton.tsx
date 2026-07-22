@@ -1,4 +1,4 @@
-// Skeleton loading atom
+
 import { cn } from '@/shared/utils';
 import styles from './Skeleton.module.css';
 

@@ -1,4 +1,4 @@
-// HomeExperienceCard - simplified version for home page with View Detail button
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -25,7 +25,7 @@ export default function HomeExperienceCard({ experience, index }: HomeExperience
       whileInView="visible"
       viewport={{ once: true, margin: '-50px' }}
     >
-      {/* Timeline dot */}
+      {}
       <div className={styles.dot}>
         <div className={styles.dotInner} />
       </div>

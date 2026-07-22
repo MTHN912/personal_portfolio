@@ -1,4 +1,4 @@
-// Navbar organism
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -40,7 +40,7 @@ export default function Navbar() {
           <span className={styles.logoGradient}>{'<AC />'}</span>
         </Link>
 
-        {/* Desktop Nav */}
+        {}
         <div className={styles.desktopNav}>
           {NAV_ITEMS.map((item) => (
             <Link
@@ -69,7 +69,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {}
       <AnimatePresence>
         {isMobileOpen && (
           <>

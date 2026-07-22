@@ -1,4 +1,4 @@
-// Contact service
+
 
 import { APP_CONFIG } from '@/shared/constants';
 import { contactMock } from '@/services/mock';
@@ -18,14 +18,14 @@ export const contactService = {
 
   async submitForm(data: ContactFormData): Promise<ContactFormResponse> {
     if (APP_CONFIG.api.useMock) {
-      // Simulate form submission
+
       console.log('Contact form submitted (mock):', data);
       return mockDelay({
         success: true,
         message: 'Thank you for your message! I will get back to you soon.',
       }, 1000);
     }
-    // Future: return apiClient.post('/contact', data).then(res => res.data);
+
     return { success: true, message: 'Message sent successfully.' };
   },
 };

@@ -1,4 +1,4 @@
-// Badge atom
+
 import { type ReactNode } from 'react';
 import { cn } from '@/shared/utils';
 import styles from './Badge.module.css';

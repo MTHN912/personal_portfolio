@@ -1,4 +1,4 @@
-// OptimizedImage atom - wrapper around next/image with skeleton loading
+
 'use client';
 import { useState } from 'react';
 import NextImage, { type ImageProps as NextImageProps } from 'next/image';

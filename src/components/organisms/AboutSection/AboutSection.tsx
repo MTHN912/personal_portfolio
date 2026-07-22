@@ -1,4 +1,4 @@
-// AboutSection organism
+
 'use client';
 
 import { useState } from 'react';
@@ -38,7 +38,7 @@ export default function AboutSection() {
         <SectionHeader title="About Me" subtitle="Get to know me" description="Learn more about my background, experience, and what drives me." />
 
         <div className={styles.grid}>
-          {/* Left column - Bio */}
+          {}
           <motion.div className={styles.bioColumn} variants={FADE_IN_LEFT} initial="hidden" whileInView="visible" viewport={{ once: true }}>
             <Card variant="glass" padding="lg">
               <Typography variant="body" color="secondary" className={styles.longIntro}>
@@ -61,9 +61,9 @@ export default function AboutSection() {
             </Card>
           </motion.div>
 
-          {/* Right column - Details */}
+          {}
           <motion.div className={styles.detailsColumn} variants={STAGGER_CHILDREN} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            {/* Personal Info */}
+            {}
             <motion.div variants={FADE_IN_RIGHT}>
               <Card variant="glass" padding="md">
                 <Typography variant="h5" className={styles.cardTitle}>Personal Info</Typography>
@@ -81,7 +81,7 @@ export default function AboutSection() {
               </Card>
             </motion.div>
 
-            {/* Languages */}
+            {}
             <motion.div variants={FADE_IN_RIGHT}>
               <Card variant="glass" padding="md">
                 <Typography variant="h5" className={styles.cardTitle}>Languages</Typography>
@@ -96,7 +96,7 @@ export default function AboutSection() {
               </Card>
             </motion.div>
 
-            {/* Interests */}
+            {}
             <motion.div variants={FADE_IN_RIGHT}>
               <Card variant="glass" padding="md">
                 <Typography variant="h5" className={styles.cardTitle}>Interests</Typography>
@@ -108,7 +108,7 @@ export default function AboutSection() {
               </Card>
             </motion.div>
 
-            {/* Photos Gallery */}
+            {}
             {about.photos && about.photos.length > 0 && (
               <motion.div variants={FADE_IN_RIGHT}>
                 <Card variant="glass" padding="md">

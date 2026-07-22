@@ -1,5 +1,5 @@
-// TODO: Replace with real data
-// Mock data for Education section — updated based on CV (Nguyen Mai Tran Hoang / Wiliam Mai)
+
+
 
 import { Education } from '@/shared/types';
 

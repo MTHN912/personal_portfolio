@@ -1,4 +1,4 @@
-// Input atom component
+
 
 'use client';
 

@@ -1,4 +1,4 @@
-// Barrel export for all molecules
+
 export { SectionHeader } from './SectionHeader';
 export { SkillCard } from './SkillCard';
 export { ExperienceCard } from './ExperienceCard';

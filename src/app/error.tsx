@@ -1,4 +1,4 @@
-// Error page (500 / runtime errors)
+
 'use client';
 
 import { useEffect } from 'react';

@@ -1,4 +1,4 @@
-// Barrel export for all hooks
+
 export { useTheme } from './useTheme';
 export { useAbout, useStatistics } from './useAbout';
 export { useSkills } from './useSkills';

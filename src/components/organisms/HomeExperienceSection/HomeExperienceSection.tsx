@@ -1,4 +1,4 @@
-// HomeExperienceSection - simplified version for home page with zic-zac layout
+
 'use client';
 
 import { SectionHeader } from '@/components/molecules';

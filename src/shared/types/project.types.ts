@@ -1,4 +1,4 @@
-// Project types
+
 
 import { BaseEntity, ImageData, LinkData } from './common.types';
 

@@ -1,4 +1,4 @@
-// Experience Page
+
 import { MainLayout } from '@/components/templates/MainLayout';
 import { ExperienceSection } from '@/components/organisms';
 

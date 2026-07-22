@@ -1,4 +1,4 @@
-// ContactSection organism
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -31,7 +31,7 @@ export default function ContactSection() {
         <SectionHeader title="Get In Touch" subtitle="Contact me" description="Have a question or want to work together? Feel free to reach out!" />
 
         <div className={styles.grid}>
-          {/* Left - Info */}
+          {}
           <motion.div className={styles.infoColumn} variants={STAGGER_CHILDREN} initial="hidden" whileInView="visible" viewport={{ once: true }}>
             {contactInfo && (
               <>
@@ -58,7 +58,7 @@ export default function ContactSection() {
               </motion.div>
             )}
 
-            {/* Map */}
+            {}
             {contactInfo && (
               <motion.div variants={FADE_IN_LEFT} className={styles.mapWrapper}>
                 <iframe
@@ -73,7 +73,7 @@ export default function ContactSection() {
             )}
           </motion.div>
 
-          {/* Right - Form */}
+          {}
           <motion.div variants={FADE_IN_RIGHT} initial="hidden" whileInView="visible" viewport={{ once: true }}>
             <Card variant="glass" padding="lg">
               <form onSubmit={handleSubmit(onSubmit)} className={styles.form} noValidate>

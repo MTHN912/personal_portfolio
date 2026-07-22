@@ -1,5 +1,5 @@
-// TODO: Replace with real data
-// Mock data for Projects section
+
+
 
 import { Project } from '@/shared/types';
 

@@ -1,4 +1,4 @@
-// MainLayout template - wraps content with Navbar, Footer, ScrollProgress, BackToTop
+
 'use client';
 
 import { Navbar, Footer } from '@/components/organisms';

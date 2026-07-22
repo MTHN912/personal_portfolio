@@ -1,4 +1,4 @@
-// Skill service
+
 
 import { APP_CONFIG } from '@/shared/constants';
 import { skillsMock, skillCategoriesMock } from '@/services/mock';

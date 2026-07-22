@@ -1,4 +1,4 @@
-// useEducation hook
+
 
 'use client';
 

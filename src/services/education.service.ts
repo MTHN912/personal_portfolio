@@ -1,4 +1,4 @@
-// Education service
+
 
 import { APP_CONFIG } from '@/shared/constants';
 import { educationMock } from '@/services/mock';

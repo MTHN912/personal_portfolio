@@ -1,4 +1,4 @@
-// ProjectCard molecule
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -22,7 +22,7 @@ export default function ProjectCard({ project, onViewDetails }: ProjectCardProps
   return (
     <motion.div variants={FADE_IN_UP}>
       <Card variant="glass" padding="none" className={styles.card}>
-        {/* Thumbnail */}
+        {}
         <div className={styles.thumbnail}>
           <Image
             src={project.thumbnail.src}

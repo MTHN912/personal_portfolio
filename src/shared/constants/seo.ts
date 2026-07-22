@@ -1,8 +1,7 @@
-// SEO constants
+
 
 import { SEOMetadata } from '@/shared/types';
 
-// TODO: Replace with real data
 export const SITE_CONFIG = {
   name: 'William Mai | Software Engineer',
   shortName: 'William Mai',

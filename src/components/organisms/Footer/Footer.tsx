@@ -1,4 +1,4 @@
-// Footer organism
+
 'use client';
 
 import Link from 'next/link';
@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.grid}>
-          {/* Logo & Description */}
+          {}
           <div className={styles.brand}>
             <span className={styles.logo}>{'<AC />'}</span>
             <Typography variant="body-sm" color="secondary">
@@ -24,7 +24,7 @@ export default function Footer() {
             </Typography>
           </div>
 
-          {/* Quick Links */}
+          {}
           <div className={styles.links}>
             <Typography variant="h6" className={styles.linkTitle}>Quick Links</Typography>
             <nav className={styles.navLinks}>
@@ -36,7 +36,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Social & Theme */}
+          {}
           <div className={styles.social}>
             <Typography variant="h6" className={styles.linkTitle}>Connect</Typography>
             {socialLinks && <SocialLinks links={socialLinks.slice(0, 6)} size="sm" />}

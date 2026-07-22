@@ -1,4 +1,4 @@
-// useScrollAnimation hook - detects when element is in viewport
+
 
 'use client';
 

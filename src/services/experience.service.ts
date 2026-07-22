@@ -1,4 +1,4 @@
-// Experience service
+
 
 import { APP_CONFIG } from '@/shared/constants';
 import { experienceMock } from '@/services/mock';

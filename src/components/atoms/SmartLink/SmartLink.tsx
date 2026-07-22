@@ -1,4 +1,4 @@
-// SmartLink atom - handles internal/external links
+
 import NextLink from 'next/link';
 import { type ReactNode } from 'react';
 import { cn } from '@/shared/utils';

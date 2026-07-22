@@ -1,4 +1,4 @@
-// Social media types
+
 
 import { BaseEntity } from './common.types';
 

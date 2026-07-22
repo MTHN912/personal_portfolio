@@ -1,4 +1,4 @@
-// useTypingAnimation hook
+
 
 'use client';
 
@@ -28,11 +28,11 @@ export function useTypingAnimation({
     if (isPaused) return;
 
     if (!isDeleting) {
-      // Typing
+
       if (displayText.length < currentFullText.length) {
         setDisplayText(currentFullText.substring(0, displayText.length + 1));
       } else {
-        // Finished typing, pause then start deleting
+
         setIsPaused(true);
         setTimeout(() => {
           setIsPaused(false);
@@ -40,11 +40,11 @@ export function useTypingAnimation({
         }, pauseDuration);
       }
     } else {
-      // Deleting
+
       if (displayText.length > 0) {
         setDisplayText(currentFullText.substring(0, displayText.length - 1));
       } else {
-        // Finished deleting, move to next text
+
         setIsDeleting(false);
         setTextIndex((prev) => (prev + 1) % texts.length);
       }

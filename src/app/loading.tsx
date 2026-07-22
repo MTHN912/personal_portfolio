@@ -1,4 +1,4 @@
-// Loading page - shown during route transitions
+
 import { Spinner } from '@/components/atoms';
 
 export default function Loading() {

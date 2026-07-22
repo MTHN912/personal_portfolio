@@ -1,8 +1,6 @@
-// Formatting utility functions
 
-/**
- * Formats a date string into a human-readable format.
- */
+
+
 export function formatDate(
   dateString: string,
   options: Intl.DateTimeFormatOptions = {
@@ -18,9 +16,7 @@ export function formatDate(
   }
 }
 
-/**
- * Formats a date range into a readable string.
- */
+
 export function formatDateRange(
   startDate: string,
   endDate?: string,
@@ -33,9 +29,7 @@ export function formatDateRange(
   return `${start} — ${end}`;
 }
 
-/**
- * Calculates duration between two dates.
- */
+
 export function calculateDuration(
   startDate: string,
   endDate?: string
@@ -53,24 +47,18 @@ export function calculateDuration(
   return `${years} yr${years !== 1 ? 's' : ''} ${remainingMonths} mo${remainingMonths !== 1 ? 's' : ''}`;
 }
 
-/**
- * Formats a number with commas.
- */
+
 export function formatNumber(num: number): string {
   return new Intl.NumberFormat('en-US').format(num);
 }
 
-/**
- * Truncates a string to a maximum length.
- */
+
 export function truncateText(text: string, maxLength: number): string {
   if (text.length <= maxLength) return text;
   return `${text.substring(0, maxLength).trim()}...`;
 }
 
-/**
- * Capitalizes the first letter of each word.
- */
+
 export function titleCase(str: string): string {
   return str
     .toLowerCase()
@@ -79,9 +67,7 @@ export function titleCase(str: string): string {
     .join(' ');
 }
 
-/**
- * Converts a string to a URL-friendly slug.
- */
+
 export function slugify(str: string): string {
   return str
     .toLowerCase()
@@ -89,9 +75,7 @@ export function slugify(str: string): string {
     .replace(/(^-|-$)/g, '');
 }
 
-/**
- * Formats employment type for display.
- */
+
 export function formatEmploymentType(type: string): string {
   const map: Record<string, string> = {
     'full-time': 'Full-time',

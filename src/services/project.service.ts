@@ -1,4 +1,4 @@
-// Project service
+
 
 import { APP_CONFIG } from '@/shared/constants';
 import { projectsMock } from '@/services/mock';

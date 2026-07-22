@@ -1,4 +1,4 @@
-// useResponsive hook
+
 
 'use client';
 

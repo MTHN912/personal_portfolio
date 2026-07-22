@@ -1,4 +1,4 @@
-// Navigation and route constants
+
 
 import { NavItem } from '@/shared/types';
 

@@ -1,4 +1,4 @@
-// StatisticCard molecule with animated counter
+
 'use client';
 import { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';

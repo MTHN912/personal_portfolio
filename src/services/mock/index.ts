@@ -1,4 +1,4 @@
-// Barrel export for all mock data
+
 export { aboutMock, statisticsMock } from './about.mock';
 export { skillsMock, skillCategoriesMock } from './skills.mock';
 export { experienceMock } from './experience.mock';

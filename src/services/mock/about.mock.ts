@@ -1,5 +1,5 @@
-// TODO: Replace with real data
-// Mock data for the About section
+
+
 
 import { PersonalInfo } from '@/shared/types';
 
@@ -139,32 +139,32 @@ export const aboutMock: PersonalInfo = {
 };
 
 export const statisticsMock = [
-  // {
-  //   id: 'stat-1',
-  //   label: 'Years of Experience',
-  //   value: 2,
-  //   suffix: '',
-  //   icon: 'calendar',
-  // },
-  // {
-  //   id: 'stat-2',
-  //   label: 'Projects Completed',
-  //   value: 5,
-  //   suffix: '+',
-  //   icon: 'code',
-  // },
-  // {
-  //   id: 'stat-3',
-  //   label: 'Technologies',
-  //   value: 30,
-  //   suffix: '+',
-  //   icon: 'layers',
-  // },
-  // {
-  //   id: 'stat-4',
-  //   label: 'Certificates',
-  //   value: 0,
-  //   suffix: '',
-  //   icon: 'award',
-  // },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];

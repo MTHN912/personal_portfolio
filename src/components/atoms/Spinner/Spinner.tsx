@@ -1,4 +1,4 @@
-// Spinner atom
+
 import { cn } from '@/shared/utils';
 import styles from './Spinner.module.css';
 

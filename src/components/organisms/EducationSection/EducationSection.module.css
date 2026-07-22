@@ -4,6 +4,5 @@
 .line { position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: linear-gradient(180deg, var(--color-primary-500), var(--color-accent-500), transparent); transform: translateX(-50%); }
 @media (max-width: 768px) { .line { left: 0; transform: none; } }
 
-/* Full-width layout for Education page */
 .fullWidthLayout .line { left: 0; transform: none; }
 .fullWidthLayout .timeline { padding-left: 2.5rem; }

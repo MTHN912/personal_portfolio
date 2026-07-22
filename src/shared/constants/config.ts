@@ -1,7 +1,7 @@
-// Application configuration constants
+
 
 export const APP_CONFIG = {
-  // Feature flags
+
   features: {
     particleBackground: true,
     animatedCursor: true,
@@ -10,18 +10,18 @@ export const APP_CONFIG = {
     loadingScreen: true,
     mouseGlow: true,
   },
-  // API configuration
+
   api: {
     baseUrl: process.env.NEXT_PUBLIC_API_URL || '/api',
     timeout: 10000,
     useMock: process.env.NEXT_PUBLIC_USE_MOCK !== 'false',
   },
-  // Contact form
+
   contact: {
     maxMessageLength: 1000,
     maxSubjectLength: 100,
   },
-  // Pagination defaults
+
   pagination: {
     defaultPage: 1,
     defaultLimit: 10,

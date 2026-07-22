@@ -1,4 +1,4 @@
-// 404 Not Found page
+
 'use client';
 
 import { motion } from 'framer-motion';

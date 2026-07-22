@@ -1,4 +1,4 @@
-// Theme constants
+
 
 export const THEME_COLORS = {
   primary: {

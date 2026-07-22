@@ -1,4 +1,4 @@
-// Tag atom
+
 'use client';
 import { cn } from '@/shared/utils';
 import styles from './Tag.module.css';

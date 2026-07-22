@@ -1,4 +1,4 @@
-// About Page
+
 import { MainLayout } from '@/components/templates/MainLayout';
 import { AboutSection } from '@/components/organisms';
 

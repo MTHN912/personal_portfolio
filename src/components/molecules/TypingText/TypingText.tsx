@@ -1,4 +1,4 @@
-// TypingText molecule
+
 'use client';
 import { useTypingAnimation } from '@/hooks';
 import { Typography } from '@/components/atoms';

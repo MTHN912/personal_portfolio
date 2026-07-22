@@ -1,4 +1,4 @@
-// Contact types
+
 
 import { BaseEntity } from './common.types';
 

@@ -1,4 +1,4 @@
-// Barrel export for all types
+
 export * from './common.types';
 export * from './about.types';
 export * from './skill.types';

@@ -1,4 +1,4 @@
-// Contact Page
+
 import { MainLayout } from '@/components/templates/MainLayout';
 import { ContactSection } from '@/components/organisms';
 

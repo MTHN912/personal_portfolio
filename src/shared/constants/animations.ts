@@ -1,4 +1,4 @@
-// Animation constants for Framer Motion
+
 
 import type { Variants, Transition } from 'framer-motion';
 

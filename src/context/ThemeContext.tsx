@@ -1,4 +1,4 @@
-// Theme context provider
+
 
 'use client';
 
@@ -28,7 +28,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     if (stored && (stored === 'light' || stored === 'dark')) {
       setThemeState(stored);
     } else {
-      // Check system preference
+
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       setThemeState(prefersDark ? 'dark' : 'light');
     }
@@ -50,7 +50,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     setThemeState(newTheme);
   }, []);
 
-  // Prevent flash of wrong theme
   if (!mounted) {
     return <>{children}</>;
   }

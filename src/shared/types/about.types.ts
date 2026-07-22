@@ -1,4 +1,4 @@
-// About section types
+
 
 import { BaseEntity, ImageData, DateRange } from './common.types';
 

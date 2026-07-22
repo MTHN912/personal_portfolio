@@ -1,4 +1,4 @@
-// Hero organism
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -24,14 +24,14 @@ export default function Hero() {
 
   return (
     <section id="home" className={styles.hero}>
-      {/* Gradient orbs background */}
+      {}
       <div className={styles.bgOrb1} />
       <div className={styles.bgOrb2} />
       <div className={styles.bgGrid} />
 
       <div className={styles.container}>
         <motion.div className={styles.content} variants={STAGGER_CHILDREN} initial="hidden" animate="visible">
-          {/* Left: Text */}
+          {}
           <motion.div className={styles.textSide} variants={FADE_IN_LEFT}>
             <motion.div variants={FADE_IN_UP}>
               <Typography variant="overline" color="accent">Welcome to my portfolio</Typography>
@@ -72,7 +72,7 @@ export default function Hero() {
             )}
           </motion.div>
 
-          {/* Right: Avatar */}
+          {}
           <motion.div className={styles.avatarSide} variants={FADE_IN_RIGHT}>
             <div className={styles.avatarWrapper}>
               <div className={styles.avatarGlow} />
@@ -90,7 +90,7 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Statistics */}
+        {}
         {stats && (
           <motion.div className={styles.stats} variants={STAGGER_CHILDREN} initial="hidden" whileInView="visible" viewport={{ once: true }}>
             {stats.map((stat) => (

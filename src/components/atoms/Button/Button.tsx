@@ -1,4 +1,4 @@
-// Button atom component
+
 
 'use client';
 

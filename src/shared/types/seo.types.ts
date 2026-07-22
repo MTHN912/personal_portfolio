@@ -1,4 +1,4 @@
-// SEO types
+
 
 export interface SEOMetadata {
   title: string;

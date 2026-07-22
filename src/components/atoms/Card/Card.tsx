@@ -1,4 +1,4 @@
-// Card atom component
+
 
 'use client';
 

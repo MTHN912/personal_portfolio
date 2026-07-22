@@ -1,4 +1,4 @@
-// Tooltip atom
+
 'use client';
 import { useState, type ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';

@@ -1,4 +1,4 @@
-// ImageModal molecule - lightbox for viewing images in detail
+
 'use client';
 import { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';

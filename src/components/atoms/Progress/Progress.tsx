@@ -1,4 +1,4 @@
-// Progress bar atom
+
 'use client';
 import { motion } from 'framer-motion';
 import { cn } from '@/shared/utils';

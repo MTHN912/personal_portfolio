@@ -1,4 +1,4 @@
-// ExperienceSection organism - full-width version for Experience page
+
 'use client';
 
 import { SectionHeader, ExperienceCard } from '@/components/molecules';

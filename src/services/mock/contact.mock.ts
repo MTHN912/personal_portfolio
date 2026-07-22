@@ -1,5 +1,5 @@
-// TODO: Replace with real data
-// Mock data for Contact section
+
+
 
 import { ContactInfo } from '@/shared/types';
 

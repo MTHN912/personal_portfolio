@@ -1,4 +1,4 @@
-// Experience types
+
 
 import { BaseEntity, ImageData, DateRange } from './common.types';
 

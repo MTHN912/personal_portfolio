@@ -1,4 +1,4 @@
-// Icon atom - wrapper around react-icons
+
 import { type ReactNode } from 'react';
 import { cn } from '@/shared/utils';
 

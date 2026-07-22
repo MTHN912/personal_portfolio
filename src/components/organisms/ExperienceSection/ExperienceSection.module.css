@@ -8,7 +8,6 @@
 }
 @media (max-width: 768px) { .line { left: 0; transform: none; } }
 
-/* Full-width layout for Experience page */
 .fullWidthLayout .line { left: 0; transform: none; }
 .fullWidthLayout .timeline { padding-left: 2.5rem; }
 

@@ -1,4 +1,4 @@
-// ContactCard molecule
+
 import { Card, Typography } from '@/components/atoms';
 import { DynamicIcon } from '@/components/molecules/DynamicIcon';
 import styles from './ContactCard.module.css';

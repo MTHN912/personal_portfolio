@@ -1,4 +1,4 @@
-// Barrel export for all services
+
 export { default as apiClient } from './api-client';
 export { portfolioService } from './portfolio.service';
 export { skillService } from './skill.service';

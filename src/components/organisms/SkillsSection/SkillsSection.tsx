@@ -1,4 +1,4 @@
-// SkillsSection organism
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -18,7 +18,7 @@ export default function SkillsSection() {
       <div className={styles.container}>
         <SectionHeader title="Skills & Expertise" subtitle="What I can do" description="A comprehensive overview of my technical skills and proficiencies." />
 
-        {/* Filters */}
+        {}
         <div className={styles.filters}>
           <div className={styles.chipRow}>
             <Chip label="All" isActive={selectedCategory === 'all'} onClick={() => setSelectedCategory('all')} />
@@ -29,7 +29,7 @@ export default function SkillsSection() {
           <SearchInput value={searchQuery} onChange={setSearchQuery} placeholder="Search skills..." />
         </div>
 
-        {/* Skills Grid */}
+        {}
         <motion.div className={styles.grid} variants={STAGGER_CHILDREN} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-100px' }} key={`${selectedCategory}-${searchQuery}`}>
           {skills.map((skill) => (
             <SkillCard key={skill.id} skill={skill} />

@@ -1,4 +1,4 @@
-// ProjectsSection organism
+
 'use client';
 
 import { useState } from 'react';

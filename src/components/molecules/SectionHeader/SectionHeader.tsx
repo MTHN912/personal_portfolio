@@ -1,4 +1,4 @@
-// SectionHeader molecule - consistent section heading with animations
+
 'use client';
 
 import { motion } from 'framer-motion';

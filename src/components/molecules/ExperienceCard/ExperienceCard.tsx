@@ -1,4 +1,4 @@
-// ExperienceCard / TimelineItem molecule
+
 'use client';
 
 import { useState } from 'react';
@@ -33,7 +33,7 @@ export default function ExperienceCard({ experience, index, layoutMode = 'zigzag
       whileInView="visible"
       viewport={{ once: true, margin: '-50px' }}
     >
-      {/* Timeline dot */}
+      {}
       <div className={styles.dot}>
         <div className={styles.dotInner} />
       </div>

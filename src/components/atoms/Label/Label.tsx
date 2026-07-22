@@ -1,4 +1,4 @@
-// Label atom
+
 import { cn } from '@/shared/utils';
 
 interface LabelProps { htmlFor?: string; children: React.ReactNode; required?: boolean; className?: string; }

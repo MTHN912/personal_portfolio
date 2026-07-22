@@ -1,4 +1,4 @@
-// EducationSection organism - full-width version for Education page
+
 'use client';
 
 import { SectionHeader, EducationCard } from '@/components/molecules';

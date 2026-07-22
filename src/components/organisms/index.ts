@@ -1,4 +1,4 @@
-// Barrel export for all organisms
+
 export { Navbar } from './Navbar';
 export { Hero } from './Hero';
 export { AboutSection } from './AboutSection';

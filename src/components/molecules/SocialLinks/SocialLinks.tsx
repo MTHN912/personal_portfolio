@@ -1,4 +1,4 @@
-// SocialLinks molecule
+
 'use client';
 import { motion } from 'framer-motion';
 import { Tooltip } from '@/components/atoms';

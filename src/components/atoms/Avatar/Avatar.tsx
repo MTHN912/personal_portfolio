@@ -1,4 +1,4 @@
-// Avatar atom component
+
 'use client';
 
 import NextImage from 'next/image';

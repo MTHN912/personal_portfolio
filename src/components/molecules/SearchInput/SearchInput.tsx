@@ -1,4 +1,4 @@
-// SearchInput molecule
+
 'use client';
 import { DynamicIcon } from '@/components/molecules/DynamicIcon';
 import styles from './SearchInput.module.css';

@@ -1,5 +1,5 @@
-// TODO: Replace with real data
-// Mock data for Experience section — updated based on CV (Nguyen Mai Tran Hoang / Wiliam Mai)
+
+
 
 import { Experience } from '@/shared/types';
 

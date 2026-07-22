@@ -1,4 +1,4 @@
-// useActiveSection hook - tracks which section is currently visible
+
 
 'use client';
 

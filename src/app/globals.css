@@ -1,12 +1,10 @@
 @import "tailwindcss";
 
-/* ===== CSS Custom Properties (Design Tokens) ===== */
 :root {
-  /* Fonts */
+
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
-  /* Primary palette */
   --color-primary-50: #eff6ff;
   --color-primary-100: #dbeafe;
   --color-primary-200: #bfdbfe;
@@ -18,22 +16,18 @@
   --color-primary-800: #1e40af;
   --color-primary-900: #1e3a8a;
 
-  /* Accent palette */
   --color-accent-400: #c084fc;
   --color-accent-500: #a855f7;
   --color-accent-600: #9333ea;
 
-  /* Semantic */
   --color-error: #ef4444;
   --color-success: #22c55e;
   --color-warning: #eab308;
 
-  /* Shadows */
   --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.08);
   --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.15), 0 0 40px rgba(99, 102, 241, 0.05);
 }
 
-/* ===== Dark Theme (default) ===== */
 .dark,
 :root {
   --color-bg: #0a0a1a;
@@ -50,7 +44,6 @@
   --color-glass-border: rgba(255, 255, 255, 0.06);
 }
 
-/* ===== Light Theme ===== */
 .light {
   --color-bg: #f8f9fc;
   --color-surface: #ffffff;
@@ -69,7 +62,6 @@
   --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.1), 0 0 40px rgba(99, 102, 241, 0.03);
 }
 
-/* ===== Base Styles ===== */
 *,
 *::before,
 *::after {
@@ -93,19 +85,16 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Focus ring */
 :focus-visible {
   outline: 2px solid var(--color-primary-400);
   outline-offset: 2px;
 }
 
-/* Selection */
 ::selection {
   background: rgba(99, 102, 241, 0.3);
   color: var(--color-text-primary);
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -120,24 +109,20 @@ body {
   background: var(--color-primary-500);
 }
 
-/* Links reset */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* Images */
 img {
   max-width: 100%;
   display: block;
 }
 
-/* Smooth section transitions */
 section {
   position: relative;
 }
 
-/* Alternating section backgrounds */
 section:nth-child(even) {
   background: var(--color-surface);
 }

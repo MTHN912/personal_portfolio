@@ -1,4 +1,4 @@
-// Projects Page
+
 import { MainLayout } from '@/components/templates/MainLayout';
 import { ProjectsSection } from '@/components/organisms';
 

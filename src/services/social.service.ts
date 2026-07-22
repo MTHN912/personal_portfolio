@@ -1,4 +1,4 @@
-// Social service
+
 
 import { APP_CONFIG } from '@/shared/constants';
 import { socialMock } from '@/services/mock';

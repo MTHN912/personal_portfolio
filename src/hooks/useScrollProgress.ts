@@ -1,4 +1,4 @@
-// useScrollProgress hook - tracks page scroll progress
+
 
 'use client';
 

@@ -1,4 +1,4 @@
-// useAbout hook
+
 
 'use client';
 
